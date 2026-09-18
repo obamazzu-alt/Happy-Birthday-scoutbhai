@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Happy Birthday Scout Bhai 🕷️</title>
+
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+
+<body>
+
+  <main class="scene" id="card">
+
+    <!-- =========================
+         INSIDE OF CARD
+    ========================== -->
+
+    <section class="inside">
+
+      <!-- Your inside Spider-Man picture -->
+      <img
+        src="inside.jpg"
+        alt="Spider-Man birthday card"
+        class="inside-image"
+      >
+
+      <div class="birthday-message">
+
+        <h1>Happy Birthday</h1>
+
+        <h2>Scout Bhai 🕷️</h2>
+
+        <p>
+          Sorry for being late! ❤️
+          <br>
+          Hope your special day was full of
+          happiness, fun & good vibes.
+        </p>
+
+        <p class="extra-line">
+          Stay amazing, keep smiling
+          & keep being the legend you are! 🕸️
+        </p>
+
+        <button id="continueBtn">
+          Continue 🕷️
+        </button>
+
+      </div>
+
+    </section>
+
+
+    <!-- =========================
+         FRONT COVER
+    ========================== -->
+
+    <section class="cover">
+
+      <div class="cover-half cover-left"></div>
+
+      <div class="cover-half cover-right"></div>
+
+    </section>
+
+
+    <!-- =========================
+         OPEN BUTTON
+    ========================== -->
+
+    <div class="open-area" id="openArea">
+
+      <button id="openBtn">
+        🕷️ OPEN CARD
+      </button>
+
+      <p>Tap to open your birthday surprise</p>
+
+    </div>
+
+
+    <!-- =========================
+         CLOSE BUTTON
+    ========================== -->
+
+    <button class="close-btn" id="closeBtn">
+      ×
+    </button>
+
+
+    <!-- =========================
+         MUSIC
+    ========================== -->
+
+    <audio id="birthdayMusic" loop>
+      <source src="music/birthday.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-btn" id="musicBtn">
+      🎵
+    </button>
+
+
+    <!-- =========================
+         BIRTHDAY GAME
+    ========================== -->
+
+    <section class="game" id="game">
+
+      <div class="game-card">
+
+        <h2 id="gameTitle">
+          Make a wish! 🎂
+        </h2>
+
+
+        <!-- CANDLE -->
+
+        <div class="stage" id="candleStage">
+
+          <div class="candle-flame" id="flame"></div>
+
+          <div class="candle">
+            🕯️
+          </div>
+
+          <p>
+            Blow your candle! 🌬️
+          </p>
+
+          <button class="red-btn" id="micBtn">
+            🎤 Blow Candle
+          </button>
+
+          <button class="small-btn" id="tapBlow">
+            Tap to blow it out
+          </button>
+
+          <p class="status" id="micStatus">
+            Allow microphone and blow toward your phone.
+          </p>
+
+        </div>
+
+
+        <!-- CAKE -->
+
+        <div class="stage cake-stage" id="cakeStage">
+
+          <div class="cake">
+
+            <div class="cake-top">
+
+              🕷️
+
+              <span>
+                SCOUT OP
+              </span>
+
+            </div>
+
+            <div class="cake-body"></div>
+
+            <div class="cake-bottom"></div>
+
+          </div>
+
+          <button class="red-btn" id="cutCakeBtn">
+            🔪 Cut Your Cake
+          </button>
+
+        </div>
+
+
+        <!-- FINAL CAKE SCREEN -->
+
+        <div class="stage final-stage" id="finalStage">
+
+          <div class="celebration">
+            🎉 🕷️ 🎂 🕸️ 🎉
+          </div>
+
+          <h1>
+            SCOUT OP! 🔥
+          </h1>
+
+          <p>
+            Cake unlocked! ❤️
+            <br>
+            Now enjoy your special day!
+          </p>
+
+          <button class="red-btn" id="giftBtn">
+            🎁 One More Surprise
+          </button>
+
+        </div>
+
+
+        <!-- GIFT -->
+
+        <div class="stage gift-stage" id="giftStage">
+
+          <h2>
+            A little gift for you 🎁
+          </h2>
+
+          <div class="gift-box" id="giftBox">
+
+            <div class="gift-bow">
+              🎀
+            </div>
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-body"></div>
+
+            <div class="gift-ribbon-vertical"></div>
+
+            <div class="gift-ribbon-horizontal"></div>
+
+          </div>
+
+          <p id="giftHint">
+            Tap the gift box to open it!
+          </p>
+
+
+          <!-- SPIDER-MAN TOY -->
+
+          <div class="toy-stage" id="toyStage">
+
+            <div class="toy">
+
+              <div class="toy-head">
+
+                <div class="toy-eye eye-left"></div>
+                <div class="toy-eye eye-right"></div>
+
+              </div>
+
+              <div class="toy-body">
+
+                <div class="toy-spider">
+                  ✦
+                </div>
+
+              </div>
+
+              <div class="toy-arm arm-left"></div>
+              <div class="toy-arm arm-right"></div>
+
+              <div class="toy-leg leg-left"></div>
+              <div class="toy-leg leg-right"></div>
+
+            </div>
+
+
+            <div class="speech">
+
+              Scout! 🕷️
+              <br>
+              Happy Birthday! ❤️
+
+            </div>
+
+            <button class="red-btn" id="sayAgainBtn">
+              🔊 Say Again
+            </button>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+</body>
+</html>
